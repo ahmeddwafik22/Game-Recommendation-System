@@ -1,2 +1,2 @@
 # Game-Recommendation-System
-Developed a recommendation system that return the top 5 closest games based on the selected game.
+Developed a recommendation system that return the top 5 closest games based on the selected game. Scrapped Nintendo Switch gamed data from the web from Wikipedia including the title, genre and the text that has all information about the game. Cleaned the data. Preprocessed the data using tokenization, stemming and vectorized the texts by computing the TF-IDF matrix of the text . Applied K-means clustering model of TF-IDF. Applied elbow method to determine the  optimal number of clusters. Calculated the similarity distances between texts.
